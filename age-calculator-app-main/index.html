@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./design/style.css" />
 
     <title>Frontend Mentor | Age calculator app</title>
 
@@ -26,7 +27,26 @@
     </style>
   </head>
   <body>
-    Day DD Month MM Year YYYY -- years -- months -- days
+    <div class="container">
+      <div class="form">
+        <div class="box-30">
+          <label for="days">Day</label>
+          <input id="days" type="text" placeholder="DD" />
+        </div>
+        <div class="box-30">
+          <label for="months">Month</label>
+          <input id="months" type="text" placeholder="MM" />
+        </div>
+        <div class="box-30">
+          <label for="years">Year</label>
+          <input id="years" type="text" placeholder="YY" />
+        </div>
+      </div>
+
+      <h1>-- years</h1>
+      <h1>-- months</h1>
+      <h1>-- days</h1>
+    </div>
 
     <div class="attribution">
       Challenge by
